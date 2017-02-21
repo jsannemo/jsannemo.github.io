@@ -4,8 +4,6 @@ description: "Ungefär den här tiden för ett år sedan fick jag en idé. Jag s
 title: "Ung Vetenskapssport"
 ---
 
-Ungefär den här tiden för ett år sedan fick jag en idé. Jag skulle arrangera ett träningsläger i matematik för Sveriges smartaste unga matematiker. De skulle få den bästa undervisningen i problemlösning som man kan få, och en möjlighet att göra något väldigt ovanligt: umgås med andra som också hade ett stort matematikintresse.
-
 ## Att arrangera läger
 
 Utan större förhoppningar om idéns genomförbarhet mailade jag Linköpings Universitet om hjälp, som snabbt ställde upp med lokaler för lägret. Jag frågade resten av mitt programmeringslag - Simon Lindholm och Mårten Wiman, om de ville undervisa. Vi hade alla tre under tidigare år vunnit SM i matte och tagit medalj i OS, och tyckte att vi skulle utgöra ett helt okej föreläsningslag. För att fylla i våra egna kunskapsluckor i geometri fick vi även ovärdelig hjälp av Lisa och Tian, som även de hade OS-medaljer. Riksförbundet för Vetenskapssport ställde upp med administrativ hjälp, och skolorna för de inbjudna eleverna gick med på att betala avgiften för eleverna. Budgeten var knapp - vi ville kräva så lite som möjligt av skolorna - men lyckades ändå med konsttycket att gå exakt 200 kronor i vinst.

@@ -4,8 +4,6 @@ description: Inom skolan glöms det ofta bort att det inte bara är elever med s
 title: "Begåvade matematikelever"
 ---
 
-Inom skolan glöms det ofta bort att det inte bara är elever med svårigheter som behöver extra stöd, utan även de som är väldigt starka. De flesta lärare vet helt enkelt inte vad de ska göra med en elev vars matematiska färdigheter och kunskaper ligger långt före resten av sin klass. Efter några inlägg i Facebookgruppen Matematikundervisning från lärare som undrat vad de ska göra med en elev som räknat ut sin mattebok "för tidigt" bestämde jag mig för att skriva lite om mina egna tankar kring matematiktalanger.
-
 ## Hur bemöts begåvade elever?
 
 Under de senaste åren har jag haft turen att träffat många av landets bästa matematikelever i olika åldrar (högstadie-gymnasie) på olika sätt, som
