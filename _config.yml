@@ -1,0 +1,51 @@
+# Site settings
+site: jsannemo
+title: jsannemo's blog
+description: random stuff on tech and education
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://jsannemo.se"
+
+author:
+  name: Johan Sannemo
+  email: jsannemo@jsannemo.se
+permalink: pretty
+
+# Build settings
+remote_theme: ronv/sidey
+plugins:
+  - jekyll-feed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap  
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Exclude from processing.
+# exclude:
