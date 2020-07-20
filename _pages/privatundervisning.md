@@ -28,7 +28,7 @@ Det jag främst undervisar i är matematik (med ett starkt fokus på problemlös
 
 ## Upplägget
 Vi börjar med att kartlägga vad du har för intressen och ambitioner, var du befinner dig just nu i dina studier och hur väl du behärskar det materialet.
-Med detta som underlag undersöker vi om förutsättningarna finns för undervisning -- om du kommer kunna få ut det du söker, och jag tror att jag är rätt person för det.
+Med detta som underlag undersöker vi om förutsättningarna finns för undervisning -- om vi båda känner att jag är rätt person för att hjälpa dig med dina mål.
 I så fall lägger vi upp en studieplan tillsammans kring undervisning, ämnen, relevant material, övning, o.s.v.
 Undervisningen sker antingen online eller på plats i Stockholm.
 
