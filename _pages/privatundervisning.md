@@ -24,7 +24,7 @@ Jag har även deltagit som lagledare för Sverige i internationella tävlingar i
 Sedan 2017 har jag arbetat som mjukvaruingenjör, bl.a. på Google.
 
 ## Ämnen
-Det jag främst undervisar i är matematik (med ett starkt fokus på problemlösning) och datalogi (så som programmering, algoritmer, och andra ämnen som ingår i en typisk [datateknisk universitetsutbildning](https://www.kth.se/utbildning/civilingenjor/datateknik/kurser-masterprogram-1.449976) på upp till avancerad universitetsnivå beroende på område.
+Det jag främst undervisar i är matematik (med ett starkt fokus på problemlösning) och datalogi (så som programmering, algoritmer, och andra ämnen som ingår i en typisk [datateknisk universitetsutbildning](https://www.kth.se/utbildning/civilingenjor/datateknik/kurser-masterprogram-1.449976)) på upp till avancerad universitetsnivå beroende på område.
 
 ## Upplägget
 Vi börjar med att kartlägga vad du har för intressen och ambitioner, var du befinner dig just nu i dina studier och hur väl du behärskar det materialet.
