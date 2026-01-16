@@ -143,7 +143,7 @@ That's what you get for running a [beefier CPU](https://www.amd.com/en/products/
 
 This does immediately showcase one of the annoying parts about optimization in competitive programming; the hardware you run matters.
 Aside from the CPU frequency, your computer will differ from Kattis in cache sizes, memory latency, memory bandwidth, instruction extensions, and so on.
-The most [serious](https://icpc.global/) and [prestigious](https://ioinformatics.org/) on-site competitions take this seriously: the judge submissions on identical hardware to the laptops provided to the contestants.
+The most [serious](https://icpc.global/) and [prestigious](https://ioinformatics.org/) on-site competitions take this seriously: the judge executes submissions on hardware identical to the laptops provided to the contestants.
 
 ## Asymptotic improvements
 Before diving into optimization land, we have one asymptotic improvement we can make.
@@ -476,7 +476,7 @@ With a small small margin we're on first place with by 0.04s.
 
 ## Don't divide, multiply
 Peeking at a new `perf report` now show a significant cost in a `div` instruction.
-Checking `https://uops.info/table.html`, we see that a division has a latency of ~10 cycles, while a multiplication is ~3 cycles.
+Checking [this table](https://uops.info/table.html), we see that a division has a latency of ~10 cycles, while a multiplication is ~3 cycles.
 
 For compile-time constants, compilers can instead transform your division into essentially a multiplication and shift (see [this thread](https://lists.freepascal.org/fpc-devel/2021-September/044028.html) for the details).
 While we don't have compile-time constants right now, we know that the exact set of possible numerators.
