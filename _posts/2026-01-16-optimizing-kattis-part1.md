@@ -4,8 +4,6 @@ title: Optimizing Kattis problems for fun and profit, part 1
 description: Optimizing Kattis problems for fun and profit, part 1
 ---
 
-# Optimizing Kattis problems for fun and profit: part 1
-
 After a too long break from my venture into [competitive programming](https://cphof.org/standings/mcc/2025) and dropping too far down on the [global Kattis ranklist](https://open.kattis.com/ranklist), I decided to solve a few problems focusing on constant factor optimization.
 Since low-level optimization is one of the to-be-written chapters in [my sometime-to-be-completed book](http://jsannemo.se/aps.pdf) on competitive programming, I thought it would be a good opportunity to spend some time trying to find good Kattis problems to use as example.
 This will hopefully be a small series of posts, looking at a few problems until I stumble upon enough to write about all the techniques I want to include, and figure out how to put it together as a book chapter.
