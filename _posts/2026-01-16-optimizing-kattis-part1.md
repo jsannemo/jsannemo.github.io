@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Optimizing Kattis problems for fun and profit: part 1
-description: Optimizing Kattis problems for fun and profit: part 1
+title: Optimizing Kattis problems for fun and profit, part 1
+description: Optimizing Kattis problems for fun and profit, part 1
 ---
 
 # Optimizing Kattis problems for fun and profit: part 1
