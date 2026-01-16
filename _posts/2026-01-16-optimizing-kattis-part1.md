@@ -147,10 +147,12 @@ The most [serious](https://icpc.global/) and [prestigious](https://ioinformatics
 
 ## Asymptotic improvements
 Before diving into optimization land, we have one asymptotic improvement we can make.
-Since the weights of our edges are integers bounded by a constant $C$, we can use a [trick](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#Specialized_variants) that is commonly used in competitive programming to improve the asymptotic complexity of Dijkstra's algorithm from $O(E \log V)$ to $O(E \cdot C)$.
+Since the weights of our edges -- i.e., the cost of the operations -- are integers bounded by a constant $C$ (where $C = 3$ in our problem), we can use a [trick](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#Specialized_variants) that is commonly found in competitive programming to improve the asymptotic complexity of Dijkstra's algorithm from $O(E \log V)$ to $O(E \cdot C)$.
 Instead of using a binary heap, we can use a [bucket queue](https://en.wikipedia.org/wiki/Bucket_queue).
-Since Dijkstra's algorithm will only in its active set keep vertices with distance at most $C$ greater than the distance of the current vertex, we can [keep $C$ buckets](https://en.wikipedia.org/wiki/Bucket_queue#Optimizations:~:text=graphs%20whose%20edge%20lengths%20are%20integers) that we rotate among, such that when we're iterating through the active vertices of distance $d$ -- kept in bucket $d \mod C$ -- and add a vertex of distance e.g. $d + 3$, add it to bucket $(d + 3) \mod C$.
-Hence, only $C$ buckets ever need to be active at the same time.
+Since Dijkstra's algorithm will only in its active set keep vertices with distance at most $C$ greater than the distance of the current vertex, we can [keep $C + 1$ buckets](https://en.wikipedia.org/wiki/Bucket_queue#Optimizations:~:text=graphs%20whose%20edge%20lengths%20are%20integers) that we rotate among in a circular fashion, such that when we're iterating through the active vertices of distance $d$ -- kept in bucket $d \mod (C + 1)$ -- and traverse an edge of weight $3$, we add it to bucket $(d + 3) \mod (C + 1)$.
+Hence, only $C + 1$ buckets ever need to be active at the same time, since when we're processing vertices of distance $d$ in bucket $d \mod C$, we'll add vertices at most distance $C$ away to bucket $(d + C) \mod (C + 1)$, so there are no collisions between vertices of different distances from the starting vertex.
+
+![Example bucket queue](/assets/kattis1/bucket.png)
 
 We rewrite the Dijkstra loop accordingly:
 
